@@ -1,0 +1,549 @@
+<html>
+    <body>
+        
+    <section id="sec"> 
+        <div class="card" id="c1" data-nummber="">
+            <div class="container">
+                <div class="front">
+
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div>
+
+        <div class="card" id="c2" data-nummber="">
+            <div class="container">
+                <div class="front">
+
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div>
+
+        <div class="card" id="c3" data-nummber="">
+            <div class="container">
+                <div class="front">
+
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div>
+ 
+
+        <div class="card" id="c4" data-nummber="">
+            <div class="container">
+                <div class="front">
+
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div>
+
+        <div class="card" id="c5" data-nummber="">
+            <div class="container">
+                <div class="front">
+
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div>
+
+        <div class="card" id="c6" data-nummber="">
+            <div class="container">
+                <div class="front">
+
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div>
+
+        <div class="card" id="c7" data-nummber="">
+            <div class="container">
+                <div class="front">
+
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div>
+ 
+
+        <div class="card" id="c8" data-nummber="">
+            <div class="container">
+                <div class="front">
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div>
+
+
+        <div class="card" id="c9" data-nummber="">
+            <div class="container">
+                <div class="front">
+
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div>
+
+        <div class="card" id="c10" data-nummber="">
+            <div class="container">
+                <div class="front">
+
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div>
+
+        <div class="card" id="c11" data-nummber="">
+            <div class="container">
+                <div class="front">
+
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div>
+ 
+
+        <div class="card" id="c12" data-nummber="">
+            <div class="container">
+                <div class="front">
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div> 
+
+        <div class="card" id="c13" data-nummber="">
+            <div class="container">
+                <div class="front">
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div> 
+
+        <div class="card" id="c14" data-nummber="">
+            <div class="container">
+                <div class="front">
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div> 
+
+        <div class="card" id="c15" data-nummber="">
+            <div class="container">
+                <div class="front">
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div> 
+
+        <div class="card" id="c16" data-nummber="">
+            <div class="container">
+                <div class="front">
+                </div>
+                <div class="back">
+                    <img src="pics/1.png">
+                </div>
+            </div>            
+        </div>
+
+    </section>
+
+    <section id="sec2">
+
+        <div>
+            <input type="button" value="New Game" id="btn"> 
+            <img src="pics/on.png" id="soundBTN"/>
+
+        </div>
+        <div>
+            <h3> Attempts: <span id="atmpt">0</span></h3>
+            <h3>Games: <span id="game">0</span></h3>
+        </div>
+    </section>
+
+    <table id="tbl">
+        <tr>
+            <th class="left">Attempts</th>
+            <th >Game</th>
+        </tr> 
+    </table> 
+
+
+    <audio id="audi">
+        <source src="audio/sound.wav" type="audio/mpeg">
+    </audio>
+
+
+
+
+</body>
+
+
+    <style> 
+
+
+
+
+    *{
+        font-family: 'Caprasimo', cursive;
+    }
+
+        table{
+            border-collapse: collapse;
+            text-align: center;
+            font-weight: 700;
+            font-family: inherit;
+        }
+
+        th:first-child::after{
+            content: "";
+            position: absolute;
+            background-color: red;
+            width: 2px;
+            height: 100%;
+            top:100%;
+            right:-2px;
+        }
+
+       table tr{
+        border-bottom: 2px solid red;
+       }
+
+       .left{
+        border-right: 2px solid red;
+        position: relative;
+       }
+ 
+        body{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            display: flex;
+        }
+
+        th{
+            padding: 3px; 
+        }
+
+        #sec{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 3px;
+            margin: auto;
+            border-radius: 8px;
+            margin-block: 1rem;
+            padding: 0.3rem;
+    }
+
+    #sec, #sec2{
+        
+        box-shadow: 1px -1px 31px -3px rgba(0,0,0,0.75);
+            -webkit-box-shadow: 1px -1px 31px -3px rgba(0,0,0,0.75);
+            -moz-box-shadow: 1px -1px 31px -3px rgba(0,0,0,0.75);
+        
+
+    }
+
+        .card, .card div{
+            width: 5rem;
+            height: 5rem;
+            object-fit: cover;
+            border-radius: 8px;
+             
+            
+        }
+
+        .card{
+            perspective: 1000px;
+            margin: 3px;
+
+            box-shadow: 1px -1px 10px -3px rgba(22, 22, 22, 0.75); 
+        
+        }
+
+        .container{ 
+            transition: transform 0.6s;
+            transform-style: preserve-3d;  
+            position: absolute;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .front, .back{
+            position: absolute;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .front{
+            
+            background-color: rgb(33, 201, 33);
+        }
+ 
+        .back{ 
+            transform: rotateY(180deg);
+            background-color: white; 
+        }
+ 
+
+        img{
+            display: block;
+            aspect-ratio: 1/1;
+            width: 100%;
+            height: 100%;
+        }
+
+
+
+     #btn   {
+                    display: inline-block;
+                    font-family: inherit;
+                    outline: none;
+                    cursor: pointer;
+                    font-weight: 800;
+                    border: 1px solid transparent;
+                    border-radius: 2px;
+                    height: 36px;
+                    line-height: 34px;
+                    font-size: 1rem;
+                    color: #ffffff;
+                    background-color: #007c89;
+                    transition: background-color 0.2s ease-in-out 0s, opacity 0.2s ease-in-out 0s;
+                    padding: 0 18px;
+                
+                }
+
+
+    #sec2{
+        display: flex;
+        flex-direction: column; 
+        padding-inline: 1rem;
+        padding-top: 1rem;
+        border-radius: 8px; 
+
+    }
+
+    #sec2 div{
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    #sec2 *{ 
+        margin-inline: 2px;
+    }
+
+    #sec2 img{
+        width: 2em;
+        height: 2em;
+        display: inline-block;
+    }
+
+    #btn:hover {                        
+        background-color: #006570;
+        pointer-events: painted;
+        }
+
+    #soundBTN{
+        cursor: pointer;
+    }
+
+    </style>
+
+    <script>
+
+        const cards = document.querySelectorAll('.card');
+        let sec = document.getElementById('sec'); 
+        let btn = document.getElementById('btn');       
+        let allRotated = Array(8).fill(false); 
+        let Attempts = 0;
+        let _Attempts = document.getElementById('atmpt');
+        let game = 0;
+        let _game = document.getElementById('game');
+        let num = [0,1,2,3,4,5];
+        let showdElement = [];
+        let imgs = [];
+        let isFirtsTime = true;
+        let tbl = document.getElementById('tbl');
+        let audi = document.getElementById("audi");
+        let soundBTN = document.getElementById("soundBTN");   
+        let isOn = true;    
+ 
+
+        function setup(){
+            _Attempts.innerText = 0;
+            Attempts = 0;
+            showdElement = [];
+            allRotated = Array(8).fill(false);
+
+            btn.disabled = true;
+            imgs = [
+                {num: 0, value: 'pics/1.png'}, 
+                {num: 0, value: 'pics/2.png'}, 
+                {num: 0, value: 'pics/3.png'}, 
+                {num: 0, value: 'pics/4.png'},
+                {num: 0, value: 'pics/5.png'}, 
+                {num: 0, value: 'pics/6.png'},
+                {num: 0, value: 'pics/7.png'}, 
+                {num: 0, value: 'pics/8.png'}
+            ];
+
+            cards.forEach( function (element){
+                element.addEventListener('click',rotat);
+                element.children[0].style.transform = 'rotateY(360deg)'; 
+                element.style.pointerEvents = 'unset'; 
+          }); 
+
+          setTimeout(setImages,400);
+          setTimeout(function(){btn.disabled = false;},900);
+
+        }   
+
+
+        function setImages(){ 
+
+          cards.forEach(function (element){  
+            let indexOf = Math.floor(Math.random()*8);
+            let img = document.querySelector(`#${element.id}  img`);
+
+                while(imgs[indexOf].num == 2){
+                    indexOf = Math.floor(Math.random()*8);
+                }
+
+                imgs[indexOf].num +=1;  
+                element.dataset.nummber = `${indexOf}`;
+                img.src = imgs[indexOf].value;
+          });
+        }
+
+
+        
+        function setValues(){
+            if(allRotated.every(value => value == true))
+                {
+                    game = game +1;
+                    _game.innerText = game;
+
+
+         let newItem =  `
+            <tr>
+                <td class="left">${Attempts}</td>
+                <td>${game}</td>
+            </tr>`;
+        tbl.innerHTML = tbl.innerHTML + newItem;    
+        }
+
+
+        }
+
+        btn.addEventListener('click', setup);
+
+        setup();
+    
+    function playSound(){
+        if(isOn){
+        audi.currentTime = 0;
+        audi.play();
+        }
+
+    }
+
+    function rotat(){ 
+
+        playSound();
+
+        const child = this.children[0]; 
+        child.style.transform = 'rotateY(180deg)';
+        if(!showdElement.includes(this)){
+                showdElement.push(this);
+              }
+               
+
+        if(showdElement.length == 2){
+        
+           if(showdElement[0].dataset.nummber != showdElement[1].dataset.nummber) {   
+                sec.style.pointerEvents = 'none';
+                setTimeout(function(){ 
+                    showdElement[0].children[0].style.transform = 'rotateY(360deg)';    
+                    showdElement[1].children[0].style.transform = 'rotateY(360deg)';                           
+                    showdElement = []; 
+                    sec.style.pointerEvents = 'auto'; 
+                    }, 1000); 
+                }  
+
+                 else{
+                    allRotated[showdElement[0].dataset.nummber] = true;
+                    
+                    showdElement[0].style.pointerEvents = 'none';
+                    showdElement[1].style.pointerEvents = 'none';
+                    showdElement = [];
+
+                 }
+                 Attempts = Attempts +1;
+                 _Attempts.innerText = Attempts; 
+                setValues();
+
+                }
+
+
+           }
+
+
+           soundBTN.addEventListener('click', changeValues);
+           
+
+           function changeValues(){
+            if (isOn){
+                this.src = 'pics/off.png';
+                isOn = false;
+            }
+            else {
+                this.src = 'pics/on.png';
+                isOn = true;
+
+            }
+            
+           }
+
+
+
+
+ 
+
+ 
+  </script>
+
+</html>
